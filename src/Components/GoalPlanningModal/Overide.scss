@@ -1,0 +1,27 @@
+.modal_time_picker {
+  width: 115px;
+  height: 38px;
+  background: #192d42;
+  border: 1px solid #394b59;
+  border-radius: 0px;
+
+  ::placeholder {
+    color: #ffff !important;
+  }
+}
+.ant-picker .ant-picker-input > input {
+  color: #fff;
+}
+
+.select_quadrant.ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  width: 79px;
+  height: 36px;
+  background: #192d42;
+  border-radius: 0px;
+  border: 1px solid #394b59;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
